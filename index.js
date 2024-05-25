@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const dbConnect = require('./dbConnect/dbConnect');
+const dbConnect = require('./dbconnect/dbConnect');
 const authRouter= require('./routers/authRouter')
 const postRouter= require('./routers/postRouter')
 const userRouter = require('./routers/userRouter')
