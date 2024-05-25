@@ -31,7 +31,7 @@ app.use(morgan('common'));
 app.use(cookieParser());
 app.use(cors({
         credentials: true,
-    origin: process.env.CORS-ORIGIN
+    origin: process.env.CORS_ORIGIN
     
 }));
 
